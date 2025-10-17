@@ -1,0 +1,29 @@
+[project]
+name = "verification"
+version = "0.1.0"
+readme = "README.md"
+requires-python = ">=3.10"
+license = "MIT"
+
+dependencies = [
+    "torch==2.5.1",
+    "transformers==4.49.0",
+    "accelerate==1.4.0",
+    "flash-attn==2.6.3",
+    "vllm==0.7.3",
+    "ray==2.40.0",
+    "numpy==1.26.4",
+    "datasets==3.3.1",
+    "pandas==2.2.3",
+    "matplotlib==3.10.1",
+    "math-verify[antlr4_9_3]==0.7.0",
+    "sympy==1.13.1",
+    "rapidfuzz==3.12.2",
+    "openai==1.63.2",
+    "backoff==2.2.1",
+    "aiohttp==3.11.12",
+    "requests==2.32.3",
+    "tqdm==4.67.1",
+    "simple-parsing==0.1.7",
+    "wandb==0.19.6",
+]
